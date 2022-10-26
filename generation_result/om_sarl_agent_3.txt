@@ -1,0 +1,13 @@
+python3 test.py --policy sarl --model_dir data/om_sarl_output/ --phase test
+2021-12-28 16:50:51, INFO: Using device: cpu
+2021-12-28 16:50:52, INFO: Policy: OM-SARL w/ global state
+2021-12-28 16:50:52, INFO: human number: 3
+2021-12-28 16:50:52, INFO: Not randomize human's radius and preferred speed
+2021-12-28 16:50:52, INFO: Training simulation: circle_crossing, test simulation: circle_crossing
+2021-12-28 16:50:52, INFO: Square width: 10.0, circle width: 4.0
+2021-12-28 16:50:52, INFO: Agent is invisible and has unicycle kinematic constraint
+2021-12-28 17:12:44, INFO: TEST  has success rate: 0.99, collision rate: 0.00, nav time: 9.93, total reward: 0.3598
+2021-12-28 17:12:44, INFO: Frequency of being in danger: 0.00 and average min separate distance in danger: 0.00
+2021-12-28 17:12:44, INFO: Collision cases: 
+2021-12-28 17:12:44, INFO: Timeout cases: 27 60 196 393
+

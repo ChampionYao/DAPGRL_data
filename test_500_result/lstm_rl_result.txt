@@ -1,0 +1,13 @@
+python3 test.py --policy lstm_rl --model_dir data/lstm_rl_output/ --phase test
+2021-12-28 10:28:17, INFO: Using device: cpu
+2021-12-28 10:28:17, INFO: Policy: LSTM-RL w/o pairwise interaction module
+2021-12-28 10:28:17, INFO: human number: 5
+2021-12-28 10:28:17, INFO: Not randomize human's radius and preferred speed
+2021-12-28 10:28:17, INFO: Training simulation: circle_crossing, test simulation: circle_crossing
+2021-12-28 10:28:17, INFO: Square width: 10.0, circle width: 4.0
+2021-12-28 10:28:17, INFO: Agent is invisible and has unicycle kinematic constraint
+2021-12-28 10:55:09, INFO: TEST  has success rate: 0.84, collision rate: 0.15, nav time: 12.20, total reward: 0.2173
+2021-12-28 10:55:09, INFO: Frequency of being in danger: 0.00 and average min separate distance in danger: 0.00
+2021-12-28 10:55:09, INFO: Collision cases: 8 12 16 28 30 33 36 47 59 79 86 87 88 92 101 108 114 124 133 143 147 152 154 166 169 179 185 187 205 215 218 222 245 247 249 256 260 264 267 271 274 279 289 294 299 322 335 336 342 358 366 377 386 392 398 407 419 422 424 427 431 432 433 444 449 452 455 456 461 469 474 475 482
+2021-12-28 10:55:09, INFO: Timeout cases: 60 200 208 253 276 348 373 453 463
+
