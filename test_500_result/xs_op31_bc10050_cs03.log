@@ -1,0 +1,13 @@
+/home/tjark/.local/lib/python3.8/site-packages/torch/cuda/__init__.py:52: UserWarning: CUDA initialization: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx (Triggered internally at  /pytorch/c10/cuda/CUDAFunctions.cpp:100.)
+  return torch._C._cuda_getDeviceCount() > 0
+2025-06-26 16:03:00, INFO: Using device: cpu
+2025-06-26 16:03:00, INFO: Policy: DAPGRL w/ global state
+2025-06-26 16:03:00, INFO: human number: 3
+2025-06-26 16:03:00, INFO: Not randomize human's radius and preferred speed
+2025-06-26 16:03:00, INFO: Training simulation: circle_crossing, test simulation: circle_crossing
+2025-06-26 16:03:00, INFO: Square width: 10.0, circle width: 4.0
+2025-06-26 16:03:00, INFO: Agent is invisible and has unicycle kinematic constraint
+2025-06-26 19:17:55, INFO: TEST  has success rate: 1.00, collision rate: 0.00, nav time: 10.72, total reward: 0.3189, average SII: 0.3335
+2025-06-26 19:17:55, INFO: Frequency of being in danger: 0.00 and average min separate distance in danger: 0.00
+2025-06-26 19:17:55, INFO: Collision cases: 
+2025-06-26 19:17:55, INFO: Timeout cases: 196 409

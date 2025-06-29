@@ -1,0 +1,13 @@
+/home/yao/.local/lib/python3.8/site-packages/torch/cuda/__init__.py:52: UserWarning: CUDA initialization: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx (Triggered internally at  /pytorch/c10/cuda/CUDAFunctions.cpp:100.)
+  return torch._C._cuda_getDeviceCount() > 0
+2025-06-24 04:58:55, INFO: Using device: cpu
+2025-06-24 04:58:55, INFO: Policy: DAPGRL w/ global state
+2025-06-24 04:58:55, INFO: human number: 13
+2025-06-24 04:58:55, INFO: Not randomize human's radius and preferred speed
+2025-06-24 04:58:55, INFO: Training simulation: circle_crossing, test simulation: circle_crossing
+2025-06-24 04:58:55, INFO: Square width: 10.0, circle width: 4.0
+2025-06-24 04:58:55, INFO: Agent is invisible and has unicycle kinematic constraint
+2025-06-24 06:43:22, INFO: TEST  has success rate: 0.74, collision rate: 0.26, nav time: 10.87, total reward: 0.2031, average SII: 0.6376
+2025-06-24 06:43:22, INFO: Frequency of being in danger: 0.00 and average min separate distance in danger: 0.00
+2025-06-24 06:43:22, INFO: Collision cases: 5 24 25 28 29 31 35 36 39 43 47 49 50 51 54 57 58 60 67 70 74 78 80 83 86 87 90 91 92 93 94 95 100 108 112 118 128 133 135 138 141 146 154 156 160 161 163 170 177 178 179 180 183 185 187 191 201 202 205 207 208 213 218 220 225 227 232 233 243 252 254 263 265 270 273 274 279 280 283 288 291 292 294 298 300 303 304 311 318 320 326 333 341 343 348 365 368 374 380 384 386 388 396 402 403 406 407 408 412 416 419 423 427 432 433 434 435 440 442 446 447 454 457 459 471 475 479 480 481 487 494
+2025-06-24 06:43:22, INFO: Timeout cases: 

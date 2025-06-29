@@ -1,0 +1,10 @@
+2025-06-14 14:31:07, INFO: Using device: cpu
+2025-06-14 14:31:07, INFO: human number: 5
+2025-06-14 14:31:07, INFO: Not randomize human's radius and preferred speed
+2025-06-14 14:31:07, INFO: Training simulation: circle_crossing, test simulation: circle_crossing
+2025-06-14 14:31:07, INFO: Square width: 10.0, circle width: 4.0
+2025-06-14 14:31:07, INFO: Agent is invisible and has holonomic kinematic constraint
+2025-06-14 14:31:37, INFO: TEST  has success rate: 0.77, collision rate: 0.22, nav time: 13.42, total reward: 0.1667, average SII: 0.4928
+2025-06-14 14:31:37, INFO: Frequency of being in danger: 0.00 and average min separate distance in danger: 0.00
+2025-06-14 14:31:37, INFO: Collision cases: 11 13 19 20 26 28 37 43 47 50 52 63 66 68 69 70 71 86 89 94 95 96 98 100 105 106 113 114 122 130 140 141 146 147 150 155 156 158 159 165 172 178 188 197 212 214 215 219 221 223 224 225 226 233 234 255 264 268 273 275 276 278 279 285 296 299 300 301 304 310 312 316 317 320 324 325 328 335 336 352 353 354 358 359 373 376 377 378 379 380 383 393 395 398 400 404 405 412 419 425 427 431 433 434 444 448 449 454 457 492
+2025-06-14 14:31:37, INFO: Timeout cases: 196 246 270 476
